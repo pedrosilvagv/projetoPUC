@@ -1,0 +1,145 @@
+body{
+    background-color: #e2e2e2;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px; 
+}
+
+#lateral{
+background-color: #081031;
+font-family: 'Lucida Sans', Arial, sans-serif;
+margin: 0;
+position: fixed;
+height: 100%;
+width: 20%;
+}
+
+#lateral > p{
+position: relative;
+top: 30%;
+color:white;
+text-align: center;
+font-size: 40px;    
+}
+
+
+#lateral > img{
+position: fixed;
+top: 0;;
+left: 0;
+height: auto;
+width: 200px;
+margin-left: 30px;
+margin-top: 10px;
+}
+
+#ether{
+    margin: 0px 25px auto;
+    text-align: right;
+    padding: 2px;
+    font-size: 13px;
+    font-family:'Lucida Sans', Arial, sans-serif;
+}
+
+#alias{
+    margin: 0px 25px auto;
+    text-align: right;
+    padding: 2px;
+    font-size: 13px;
+    font-family:'Lucida Sans', Arial, sans-serif;
+}
+
+#ipv4{
+    margin: 0px 25px auto;
+    text-align: right;
+    padding: 2px;
+    font-size: 13px;
+    font-family:'Lucida Sans', Arial, sans-serif;
+}
+
+#mask{
+    margin: 0px 25px auto;
+    text-align: right;
+    padding: 2px;
+    font-size: 13px;
+    font-family:'Lucida Sans', Arial, sans-serif;
+    
+}
+
+#description{
+    margin: 0px 25px auto;
+    text-align: right;
+    padding: 2px;
+    font-size: 13px;
+    font-family:'Lucida Sans', Arial, sans-serif;
+}
+
+.botoes{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 100px;
+    width: 360px;
+    height: 140px;
+    margin: 140px auto;
+    padding: 20px;
+}
+
+#container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 100px;
+    width: 360px;
+    height: 140px;
+    margin: auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+/*----------------------------------------*/
+#txtlogin{
+    margin: 0px 35px auto;
+    text-align: left;
+    padding: 4px;
+    font-family:'Lucida Sans', Arial, sans-serif;
+}
+
+#txtpassword{
+    margin: 0px 32px auto;
+    text-align: left;
+    padding: 4px;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+}
+
+#txtlogin>#input_login{
+    margin: 5px 0 0 0;
+    width: auto;
+    padding: 3px;
+}
+
+#txtpassword>#input_password{
+    margin: 5px 0 0 0;
+    width: auto;
+    padding: 3px;
+}
+
+.botoes_inicio>#btn_Logar{
+    margin: 0px 0 0 70px;
+    width: 100px;
+    padding: 3px;
+}
+
+.botoes_inicio>#btn_Cadastrar{
+    margin: 10px 0 0 10px;
+    width: 100px;
+    padding: 3px;
+}
