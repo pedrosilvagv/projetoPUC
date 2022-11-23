@@ -1,4 +1,4 @@
-var url = "http://201.78.60.193:8585";
+var url = "http://177.22.225.46:8585";
 function alerta() {
 
     var interface = document.getElementById("input_ether").value;
