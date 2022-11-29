@@ -14,7 +14,7 @@ function alerta() {
         if (!window.confirm("Tem certeza que deseja configurar a rede com as seguintes configurações? \n Interface.: " + interface + " \n Alias.: " + alias + " \n Endereço IP.: " + ip + " \n Mascara.: " + mask))
             return;
         else {
-            alert("Vai executar o shell");
+            /* alert("Vai executar o shell"); */
             executShell(interface, alias, ip, mask);
 
         }
@@ -24,7 +24,7 @@ function alerta() {
 }
 
 function executShell(interface, alias, ip, mask) {
-    alert("Entrou no execute shell");
+    /* alert("Entrou no execute shell"); */
     var params = interface + "/" + alias + "/" + ip + "/" + mask;
     alert("Vai executar o getApi");
     getApiAsync("GET", "/configura", params, enviado, '');
@@ -36,7 +36,7 @@ function enviado(data) {
 }
 
 function getApiAsync(type, metodo, params, callback, param) {
-    alert("Entrou no getapi");
+   /* alert("Entrou no getapi"); */
     var retorno = "";
     alert(url+metodo+"/"+params);
     window.location=url+metodo+"/"+params;
