@@ -32,13 +32,13 @@ function executShell(interface, alias, ip, mask) {
 }
 function enviado(data) {
     console.log(data);
-    alert("Comando Executado com Sucesso!");
+    alert("Comando Executado com Sucesso!"); 
 }
 
 function getApiAsync(type, metodo, params, callback, param) {
    /* alert("Entrou no getapi"); */
     var retorno = "";
-    alert(url+metodo+"/"+params);
+  /*  alert(url+metodo+"/"+params); */
     window.location=url+metodo+"/"+params;
   
     return retorno;
