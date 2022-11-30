@@ -26,7 +26,7 @@ function alerta() {
 function executShell(interface, alias, ip, mask) {
     /* alert("Entrou no execute shell"); */
     var params = interface + "/" + alias + "/" + ip + "/" + mask;
-    alert("Vai executar o getApi");
+    /* alert("Vai executar o getApi"); */
     getApiAsync("GET", "/configura", params, enviado, '');
 
 }
